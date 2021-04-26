@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyStock</title>
+
+    <!-- Link css -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Fontawsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
+
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav>
+        <h1 class="logo">M<i class="fab fa-get-pocket"></i>Stock</h1>
+        <input type="checkbox" id="check">
+        <label for="check"><i class="fas fa-bars"></i></label>
+        <ul class="menu">
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/about.html">About</a></li>
+            <li><a href="/addstock.html">Add Stock</a></li>
+        </ul>
+    </nav>
+    <!-- Contact  section -->
+    <section class="addstock">
+        <h2 class="addstockTitle">ADD STOCK</h2>
+        <form action="" class="addStock-form">
+            <label for="stockName">Stock Name</label>
+            <input type="text" id="stockName">
+            <label for="stockSector">Stock Sector</label>
+            <input type="text" id="stockSector">
+            <label for="stockDetails">Stock Details</label>
+            <textarea name="stockDetails" id="stockDetails" cols="30" rows="10" ></textarea>
+            <button><a href="">Add Stock</a></button>
+        </form>
+    </section>
+    <!-- Footer section -->
+    <section class="footer">
+        <ul>
+            <li><a href="https://github.com/harshkotkar5557" alt="#"><i class="fab fa-github">&nbsp;Github</i></a></li>
+            <li><a href="https://www.linkedin.com/in/harsh-kotkar-389a08139/" alt="#"><i class="fab fa-linkedin">&nbsp;LinkedIn</i></a>
+            </li>
+            <li><a href="https://twitter.com/KotkarHaresh" alt="#"><i class="fab fa-twitter">&nbsp;Twitter</i></a></li>
+        </ul>
+    </section>
+    <script src="/app.js"></script>
+</body>
+
+</html>
+
